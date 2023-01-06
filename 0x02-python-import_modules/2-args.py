@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 def print_arg(argv):
-    args_len = len(argv) - 1
-    if args_len == 0:
-        print("{:d} argument.".format(args_len))
+    argslen = len(argv) - 1
+    if argslen == 0:
+        print("{:d} argument.".format(argslen))
         return
     else:
-        if args_len == 1:
-            print("{:d} argument:".format(args_len))
+        if argslen == 1:
+            print("{:d} argument:".format(argslen))
         else:
-            print("{:d} arguments:".format(args_len))
+            print("{:d} arguments:".format(argslen))
         i = 1
-        while i <= args_len:
+        while i <= argslen:
             print("{:d}: {:s}".format(i, argv[i]))
             i += 1
 
