@@ -1,3 +1,1 @@
-# Test driven development
-
-In this project, we will learn about the basics of test driven development.
+0x07-python-test_driven_development
